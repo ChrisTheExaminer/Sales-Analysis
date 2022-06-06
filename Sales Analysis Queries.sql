@@ -79,7 +79,7 @@ WHERE row_num > 1;
 
 -----------------------------------------------------------------Data-Exploration-------------------------------------------------------------------------------------------------
 
-----Different Products sold a year at the price of a unit of that product.
+----Different Products sold at the price of a unit of that product.
 
 SELECT DISTINCT([Product]), [Price Each]
 FROM Sales_Data
